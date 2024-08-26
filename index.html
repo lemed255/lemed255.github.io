@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon.html" />
+  <title>Portfolio - Léo Mourlin</title>
+  <meta name="description" content="Portfolio de Léo, Cybersecurité, développement web, programmation">
+  <meta name="keywords" content="Léo Mourlin, portfolio, informatique, développeur" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#about" class="nav__link">A propos</a></li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Projets</a>
+          </li>
+          <li class="nav__item">
+            <a href="#competences" class="nav__link">Compétences</a>
+          </li>
+          <li class="nav__item">
+            <a href="#experiences" class="nav__link">Expériences</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Léo Mourlin</span>
+        </h1>
+        <p>Réseaux et Cybersecurité</p>
+        <a href="#contact" class="btn btn--pink">Vous souhaitez me contacter ?</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>A propos</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>texte</p>
+            <p>1</p>
+            <p>2</p>
+            <ul>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+            </ul>
+            <p>
+               6
+            </p>
+          </div>
+
+          
+          <div class="about__photo-container">
+            <img class="about__photo" src="images/profil.jpg" alt="" />
+          </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Mes Projets</h2>
+        <div class="work__boxes">
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Webshell</h3>
+              <p>
+                Interface web qui permet un accès et un contrôle à distance à un serveur Web en permettant l'exécution de commandes arbitraires.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/0xMethyl/PHP-Webshell-Remake" class="link__text" target="_blank">
+                  <img src="images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="images/webshell.png" class="work__image" alt="Webshell" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Bibliothèque</h3>
+              <p>
+                C'est une bibliothèque créée dans le cadre de ma formation BTS SIO.</br></br>
+                Ce site web inclut une partie administrateur et utilisateur totalement développée à partir de programmation PHP, ainsi que l'aide de HTML et CSS pour le design.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>SQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://livrearbitre.ipssi-sio.fr/" class="link__text" target="_blank">
+                  Visiter le site<span>&rarr;</span>
+                </a>
+                </br>
+                <a href="https://github.com/ChuisJu/Livre-Arbitre" class="link__text"><img src="images/github.svg" class="work__code" target="_blank" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="images/bibliotheque.png" class="work__image" alt="Bibliothèque" />
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="competences" id="competences">
+      <div class="rowa">
+        <h2>Mes compétences</h2>
+        <div class="competences__infos">
+          <div class="box">
+            <h3>Développement web :</h3>
+            <p>HTML
+              <div class="progress">
+                <div class="progress-value" style="width: 90%;"></div>
+              </div>
+            </p>
+            <p>CSS
+              <div class="progress">
+                <div class="progress-value" style="width: 50%;"></div>
+              </div>
+            </p>
+            <p>Javascript
+              <div class="progress">
+                <div class="progress-value" style="width: 65%;"></div>
+              </div>
+            </p>
+            <p>PHP/SQL
+              <div class="progress">
+                <div class="progress-value" style="width: 80%;"></div>
+              </div>
+            </p>
+          </div>
+          <div class="box">
+            <h3>Programmation et système :</h3>
+            <p>Python
+              <div class="progress">
+                <div class="progress-value" style="width: 70%;"></div>
+              </div>
+            </p>
+            <p>Bash
+              <div class="progress">
+                <div class="progress-value" style="width: 68%;"></div>
+              </div>
+            </p>
+            <p>Java
+              <div class="progress">
+                <div class="progress-value" style="width: 30%;"></div>
+              </div>
+            </p>
+            <p>C
+              <div class="progress">
+                <div class="progress-value" style="width: 20%;"></div>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="experiences" id="experiences">
+      <div class="row">
+        <h2>Mes Expériences</h2>
+        <div class="work__boxes">
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Stage Développeur Javascript</h3>
+              <p>
+                Stage effectué dans le cadre de ma formation BTS SIO (SLAM).
+                Participation à 2 projets javascript :</br></br>
+                - Application Drag & Drop</br>
+                - Application haute disponibilité avec Node.js</br>
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>SQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/0xMethyl/Node-JS-webapplication" class="link__text" target="_blank"><img src="images/github.svg" class="work__code" title="View Source Code" alt="GitHub"></a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="images/hd.png" class="work__image" alt="hd" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <div class="row">
+        <div class="work__boxes">
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Alternance chez Upgrade Dental</h3>
+              <p>
+                Alternance effectuée sur une durée de 1 an, de maintenance, de support, et d'installations de matériel informatique et d'imagerie.</br>
+              </br>
+              </p>
+              <div class="work__links">
+                <a href="https://upgradedental.fr/" class="link__text">
+                  Visiter upgradedental.fr<span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="images/upgradedental.png" class="work__image" alt="hd" width="90%"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+    <div class="row">
+      <h2>Me contacter</h2>
+      <div class="contact__info">
+        <p>
+          Vous recherchez quelqu'un avec des compétences en cybersécurité pour revoir la sécurité de base d'un serveur web ? D'un développeur backend ? Ou encore d'un administrateur système ? Vous êtes à la bonne porte.</br></br>Voici ci-dessous le lien vers mon e-mail professionnel :
+        </p>
+        <a href="mailto:leo.edsup@gmail.com" target="_blank" class="btn">leo.edsup@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/0xMethyl/" target="_blank" title="Link to Github Profile">
+            <img src="images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/l%C3%A9o-mourlin-550101322/" target="_blank" title="Link to Linkedin Profile">
+            <img src="images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+      <p>
+        &copy; 2024 - Léo M.
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="index.js"></script>
+  <script defer src="./landingpage/static/tsparticles.min.js"></script>
+  <script defer src="./landingpage/static/scripts.js"></script>
+</body>
+</html>
